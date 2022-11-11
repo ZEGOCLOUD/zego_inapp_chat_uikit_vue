@@ -1,0 +1,55 @@
+.btn {
+    text-align: center;
+    background-color: #3478fc;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+    }
+}
+.err-tip {
+    align-self: flex-start;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: PingFangSC-Regular, PingFang SC;
+    color: #f64326;
+    line-height: 14px;
+}
+.err-icon {
+    margin-right: 8px;
+    background-image: url("../images/send-fail-icon.png");
+    background-size: cover;
+    width: 24px;
+    height: 24px;
+}
+*::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+*::-webkit-scrollbar-thumb {
+    /*滚动条内部滑块*/
+    border-radius: 3px;
+    background-color: #bebebe;
+    opacity: 0.6;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    /*鼠标悬停滚动条内部滑块*/
+    background: #bebebe;
+}
+
+*::-webkit-scrollbar-track {
+    /*滚动条内部轨道*/
+    background: transparent;
+}
+*::-webkit-scrollbar-corner {
+    background: transparent;
+}
